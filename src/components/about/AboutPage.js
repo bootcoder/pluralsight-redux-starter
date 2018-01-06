@@ -9,3 +9,5 @@ class AboutPage extends Component {
     )
   }
 }
+
+export default AboutPage
