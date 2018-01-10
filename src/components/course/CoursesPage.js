@@ -38,7 +38,7 @@ class CoursesPage extends Component {
       <div className='CoursesPage'>
         <h1>Courses</h1>
         {this.props.courses.map(this.courseRow)}
-        <h2>Add Course</h2>
+        <h2>Add Course here!</h2>
         <input
           type='text'
           onChange={this.onTitleChange}
